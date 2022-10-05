@@ -24,11 +24,11 @@
   .phone a,
   .email a,
   .location a {
-    color: #fd4f00;
+    color: #281a5c;
     font-size:18px;
   }
   .contact-h2 {
-    color: #fd4f00;
+    color: #281a5c;
     padding-top:20px;
   }
   .contact-fields .form-group {
@@ -63,11 +63,11 @@
       letter-spacing: 0.3px;
   }
   .btn.btn-accent {
-      background: #2fbfbc;
+      background: #281a5c;
       color: white;
   }
   .btn.btn-accent:hover {
-      background: #269694;
+      background: #281a5c;
   }
   .ct-newsletter-section .container {
       width: 100%;
