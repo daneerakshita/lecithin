@@ -1,33 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+ 
+/* font-family: 'Big Shoulders Text', cursive; */
+ 
 .nav-flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: absolute;
-  z-index: 100;
-  left: 0;
-  width: 100%;
-  padding: 0;
-  background-color: #281a5c
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #281a5c;
 }
-
+ 
 .nav-flex-row li {
-  text-decoration: none;
-  list-style-type: none;
-  padding: 20px 15px;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #281a5c;
+    padding: 20px 15px;
 }
-
-.nav-flex-row li a {
-  font-family: 'Big Shoulders Text', cursive;
-  color: white;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: 300;
+ 
+.chgfnt{
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 .nav-flex-row li a:hover{
-  background: #281a5c;
+    background: rgb(142, 204, 255);
 }
-
-
 
 .contact-section .form-control{
     border: 1px solid  #2fbfbc;
